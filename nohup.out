@@ -224,3 +224,374 @@ The -s/--socket option is missing and stdin is not a socket.
 [pid: 31003|app: 0|req: 9/13] 59.172.176.141 () {42 vars in 751 bytes} [Sun Nov  8 08:48:38 2015] GET / => generated 1904 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
 [pid: 31004|app: 0|req: 3/14] 59.172.176.141 () {42 vars in 773 bytes} [Sun Nov  8 08:48:50 2015] GET /hello_world => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 152 bytes (1 switches on core 0)
 [pid: 31001|app: 0|req: 1/15] 59.172.176.141 () {42 vars in 775 bytes} [Sun Nov  8 08:48:50 2015] GET /hello_world/ => generated 11 bytes in 75 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31003|app: 0|req: 10/16] 59.172.176.141 () {42 vars in 751 bytes} [Sun Nov  8 12:53:06 2015] GET / => generated 1904 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 31003|app: 0|req: 11/17] 59.172.176.141 () {44 vars in 782 bytes} [Sun Nov  8 13:07:23 2015] GET / => generated 1904 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 31004|app: 0|req: 4/18] 59.172.176.141 () {44 vars in 782 bytes} [Sun Nov  8 13:09:57 2015] GET / => generated 1904 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 31002|app: 0|req: 2/19] 59.172.176.141 () {44 vars in 782 bytes} [Sun Nov  8 13:09:58 2015] GET / => generated 1904 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from website.wsgi
+*** WARNING: Can't find section "uwsgi" in INI configuration file website.wsgi ***
+*** Starting uWSGI 2.0.11.2 (64bit) on [Sun Nov  8 21:14:49 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+The -s/--socket option is missing and stdin is not a socket.
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+worker 5 buried after 4 seconds
+worker 6 buried after 4 seconds
+worker 7 buried after 4 seconds
+worker 8 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/whu/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/whu/mysite/mysite.sock)
+worker 5 buried after 4 seconds
+worker 7 buried after 4 seconds
+worker 8 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/whu/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/whu/mysite/mysite.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Sun Nov  8 13:59:35 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/whu/mysite/mysite.sock fd 3
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Sun Nov  8 13:59:35 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/whu/mysite/mysite.sock fd 3
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+worker 5 buried after 4 seconds
+worker 6 buried after 4 seconds
+worker 7 buried after 4 seconds
+worker 8 buried after 4 seconds
+worker 9 buried after 4 seconds
+worker 10 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/whu/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/whu/mysite/mysite.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Sun Nov  8 13:59:35 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/whu/mysite/mysite.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+worker 5 buried after 4 seconds
+worker 6 buried after 4 seconds
+worker 7 buried after 4 seconds
+worker 8 buried after 4 seconds
+worker 9 buried after 4 seconds
+worker 10 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/whu/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/whu/mysite/mysite.sock)
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25b1760
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Sun Nov  8 13:59:35 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/whu/mysite/mysite.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b42900
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xce6900
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a758f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./mysite/wsgi.py", line 14, in <module>
+Traceback (most recent call last):
+  File "./mysite/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 21, in setup
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 21, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    app_config.import_models(all_models)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 40, in <module>
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 40, in <module>
+    class Permission(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 124, in __new__
+    class Permission(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 124, in __new__
+    new_class.add_to_class('_meta', Options(meta, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 299, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/options.py", line 166, in contribute_to_class
+    new_class.add_to_class('_meta', Options(meta, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 299, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/options.py", line 166, in contribute_to_class
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/__init__.py", line 40, in __getattr__
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/__init__.py", line 40, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 242, in __getitem__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 242, in __getitem__
+    backend = load_backend(db['ENGINE'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 108, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    backend = load_backend(db['ENGINE'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 108, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    raise ImproperlyConfigured("Error loading MySQLdb module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 30709)
+spawned uWSGI worker 1 (pid: 4220, cores: 1)
+spawned uWSGI worker 2 (pid: 4221, cores: 1)
+spawned uWSGI worker 3 (pid: 4222, cores: 1)
+spawned uWSGI worker 4 (pid: 4223, cores: 1)
+spawned uWSGI worker 5 (pid: 4224, cores: 1)
+spawned uWSGI worker 6 (pid: 4225, cores: 1)
+spawned uWSGI worker 7 (pid: 4226, cores: 1)
+spawned uWSGI worker 8 (pid: 4227, cores: 1)
+    raise ImproperlyConfigured("Error loading MySQLdb module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 30519)
+spawned uWSGI worker 1 (pid: 4238, cores: 1)
+spawned uWSGI worker 2 (pid: 4239, cores: 1)
+spawned uWSGI worker 3 (pid: 4250, cores: 1)
+spawned uWSGI worker 4 (pid: 4251, cores: 1)
+spawned uWSGI worker 5 (pid: 4252, cores: 1)
+spawned uWSGI worker 6 (pid: 4253, cores: 1)
+spawned uWSGI worker 7 (pid: 4254, cores: 1)
+spawned uWSGI worker 8 (pid: 4255, cores: 1)
+spawned uWSGI worker 9 (pid: 4256, cores: 1)
+spawned uWSGI worker 10 (pid: 4257, cores: 1)
+spawned uWSGI worker 9 (pid: 4258, cores: 1)
+spawned uWSGI worker 10 (pid: 4259, cores: 1)
+Traceback (most recent call last):
+  File "./mysite/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 21, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 40, in <module>
+    class Permission(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 124, in __new__
+    new_class.add_to_class('_meta', Options(meta, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 299, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/options.py", line 166, in contribute_to_class
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/__init__.py", line 40, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 242, in __getitem__
+    backend = load_backend(db['ENGINE'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 108, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    raise ImproperlyConfigured("Error loading MySQLdb module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 30994)
+spawned uWSGI worker 1 (pid: 4260, cores: 1)
+spawned uWSGI worker 2 (pid: 4261, cores: 1)
+spawned uWSGI worker 3 (pid: 4262, cores: 1)
+spawned uWSGI worker 4 (pid: 4263, cores: 1)
+spawned uWSGI worker 5 (pid: 4264, cores: 1)
+spawned uWSGI worker 6 (pid: 4265, cores: 1)
+spawned uWSGI worker 7 (pid: 4266, cores: 1)
+spawned uWSGI worker 8 (pid: 4267, cores: 1)
+spawned uWSGI worker 9 (pid: 4268, cores: 1)
+spawned uWSGI worker 10 (pid: 4269, cores: 1)
+Traceback (most recent call last):
+  File "./mysite/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 21, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py", line 40, in <module>
+    class Permission(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 124, in __new__
+    new_class.add_to_class('_meta', Options(meta, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 299, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/options.py", line 166, in contribute_to_class
+    self.db_table = truncate_name(self.db_table, connection.ops.max_name_length())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/__init__.py", line 40, in __getattr__
+    return getattr(connections[DEFAULT_DB_ALIAS], item)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 242, in __getitem__
+    backend = load_backend(db['ENGINE'])
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 108, in load_backend
+    return import_module('%s.base' % backend_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 17, in <module>
+    raise ImproperlyConfigured("Error loading MySQLdb module: %s" % e)
+django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 30883)
+spawned uWSGI worker 1 (pid: 4270, cores: 1)
+spawned uWSGI worker 2 (pid: 4271, cores: 1)
+spawned uWSGI worker 3 (pid: 4272, cores: 1)
+spawned uWSGI worker 4 (pid: 4273, cores: 1)
+spawned uWSGI worker 5 (pid: 4274, cores: 1)
+spawned uWSGI worker 6 (pid: 4275, cores: 1)
+spawned uWSGI worker 7 (pid: 4276, cores: 1)
+spawned uWSGI worker 8 (pid: 4277, cores: 1)
+spawned uWSGI worker 9 (pid: 4278, cores: 1)
+spawned uWSGI worker 10 (pid: 4279, cores: 1)
