@@ -595,3 +595,276 @@ spawned uWSGI worker 7 (pid: 4276, cores: 1)
 spawned uWSGI worker 8 (pid: 4277, cores: 1)
 spawned uWSGI worker 9 (pid: 4278, cores: 1)
 spawned uWSGI worker 10 (pid: 4279, cores: 1)
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Nov  9 15:31:48 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/whu/mysite/mysite.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd49820
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xd49820 pid: 2863 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2863)
+spawned uWSGI worker 1 (pid: 2864, cores: 1)
+spawned uWSGI worker 2 (pid: 2865, cores: 1)
+spawned uWSGI worker 3 (pid: 2866, cores: 1)
+spawned uWSGI worker 4 (pid: 2867, cores: 1)
+spawned uWSGI worker 5 (pid: 2868, cores: 1)
+spawned uWSGI worker 6 (pid: 2869, cores: 1)
+spawned uWSGI worker 7 (pid: 2870, cores: 1)
+spawned uWSGI worker 8 (pid: 2871, cores: 1)
+spawned uWSGI worker 9 (pid: 2872, cores: 1)
+spawned uWSGI worker 10 (pid: 2873, cores: 1)
+[pid: 2866|app: 0|req: 1/1] 59.172.176.141 () {44 vars in 775 bytes} [Mon Nov  9 07:32:03 2015] GET / => generated 1899 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/whu/mysite/mysite.sock removed.
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Nov  9 15:32:23 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/whu/mysite/mysite.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x262d820
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x262d820 pid: 2875 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2875)
+spawned uWSGI worker 1 (pid: 2876, cores: 1)
+spawned uWSGI worker 2 (pid: 2877, cores: 1)
+spawned uWSGI worker 3 (pid: 2878, cores: 1)
+spawned uWSGI worker 4 (pid: 2879, cores: 1)
+spawned uWSGI worker 5 (pid: 2880, cores: 1)
+spawned uWSGI worker 6 (pid: 2881, cores: 1)
+spawned uWSGI worker 7 (pid: 2882, cores: 1)
+spawned uWSGI worker 8 (pid: 2883, cores: 1)
+spawned uWSGI worker 9 (pid: 2884, cores: 1)
+spawned uWSGI worker 10 (pid: 2885, cores: 1)
+[pid: 2885|app: 0|req: 1/1] 59.172.176.141 () {44 vars in 775 bytes} [Mon Nov  9 07:32:31 2015] GET / => generated 1899 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2884|app: 0|req: 1/2] 14.17.29.92 () {38 vars in 608 bytes} [Mon Nov  9 07:33:00 2015] GET / => generated 1899 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2885|app: 0|req: 2/3] 180.153.201.64 () {38 vars in 611 bytes} [Mon Nov  9 07:33:01 2015] GET / => generated 1899 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2876|app: 0|req: 1/4] 101.227.131.247 () {38 vars in 725 bytes} [Mon Nov  9 07:33:01 2015] GET / => generated 1899 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2885|app: 0|req: 3/5] 59.172.176.141 () {42 vars in 744 bytes} [Mon Nov  9 07:33:56 2015] GET / => generated 1899 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2885|app: 0|req: 4/6] 59.172.176.141 () {38 vars in 591 bytes} [Mon Nov  9 07:50:16 2015] GET / => generated 1899 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2884|app: 0|req: 2/7] 59.172.176.141 () {38 vars in 613 bytes} [Mon Nov  9 07:50:16 2015] GET /favicon.ico => generated 1932 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 2876|app: 0|req: 2/8] 59.172.176.141 () {38 vars in 613 bytes} [Mon Nov  9 07:50:16 2015] GET /favicon.ico => generated 1932 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+Gracefully killing worker 10 (pid: 2885)...
+Gracefully killing worker 9 (pid: 2884)...
+Gracefully killing worker 8 (pid: 2883)...
+Gracefully killing worker 7 (pid: 2882)...
+Gracefully killing worker 6 (pid: 2881)...
+Gracefully killing worker 5 (pid: 2880)...
+Gracefully killing worker 4 (pid: 2879)...
+Gracefully killing worker 3 (pid: 2878)...
+Gracefully killing worker 2 (pid: 2877)...
+Gracefully killing worker 1 (pid: 2876)...
+...gracefully killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/whu/mysite
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (/home/whu/mysite/mysite.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Nov  9 12:25:29 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/whu/mysite/mysite.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21d9760
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x21d9760 pid: 2875 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2875)
+spawned uWSGI worker 1 (pid: 6366, cores: 1)
+spawned uWSGI worker 2 (pid: 6367, cores: 1)
+spawned uWSGI worker 3 (pid: 6368, cores: 1)
+spawned uWSGI worker 4 (pid: 6369, cores: 1)
+spawned uWSGI worker 5 (pid: 6370, cores: 1)
+spawned uWSGI worker 6 (pid: 6371, cores: 1)
+spawned uWSGI worker 7 (pid: 6372, cores: 1)
+spawned uWSGI worker 8 (pid: 6373, cores: 1)
+spawned uWSGI worker 9 (pid: 6374, cores: 1)
+spawned uWSGI worker 10 (pid: 6375, cores: 1)
+[uWSGI] getting INI configuration from mysite_uwsgi.ini
+*** Starting uWSGI 2.0.11.2 (64bit) on [Mon Nov  9 21:58:12 2015] ***
+compiled with version: 4.8.2 on 05 November 2015 20:29:15
+os: Linux-3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014
+nodename: iZ28536b2jaZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/whu/mysite
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/whu/mysite
+your processes number limit is 7770
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/whu/mysite/mysite.sock fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8b1820
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800360 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x8b1820 pid: 6611 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6611)
+spawned uWSGI worker 1 (pid: 6612, cores: 1)
+spawned uWSGI worker 2 (pid: 6613, cores: 1)
+spawned uWSGI worker 3 (pid: 6614, cores: 1)
+spawned uWSGI worker 4 (pid: 6615, cores: 1)
+spawned uWSGI worker 5 (pid: 6616, cores: 1)
+spawned uWSGI worker 6 (pid: 6617, cores: 1)
+spawned uWSGI worker 7 (pid: 6618, cores: 1)
+spawned uWSGI worker 8 (pid: 6619, cores: 1)
+spawned uWSGI worker 9 (pid: 6620, cores: 1)
+spawned uWSGI worker 10 (pid: 6621, cores: 1)
+[pid: 6619|app: 0|req: 1/1] 121.42.0.35 () {38 vars in 599 bytes} [Tue Nov 10 03:45:49 2015] GET / => generated 19 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 2/2] 221.231.6.246 () {36 vars in 586 bytes} [Tue Nov 10 04:52:17 2015] OPTIONS / => generated 19 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 3/3] 120.26.55.211 () {28 vars in 303 bytes} [Tue Nov 10 08:52:53 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 4/4] 121.42.210.61 () {28 vars in 303 bytes} [Tue Nov 10 09:19:41 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 5/5] 52.19.23.139 () {34 vars in 440 bytes} [Tue Nov 10 12:42:28 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 6/6] 120.26.220.39 () {40 vars in 716 bytes} [Tue Nov 10 13:07:58 2015] GET /web-console/ServerInfo.jsp => generated 2433 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 1/7] 120.26.220.39 () {40 vars in 875 bytes} [Tue Nov 10 13:08:00 2015] GET /jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo => generated 2482 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 7/8] 120.26.220.39 () {40 vars in 713 bytes} [Tue Nov 10 13:08:05 2015] GET /invoker/JMXInvokerServlet => generated 2430 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6612|app: 0|req: 1/9] 120.26.220.39 () {40 vars in 716 bytes} [Tue Nov 10 13:10:07 2015] GET /web-console/ServerInfo.jsp => generated 2433 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 8/10] 120.26.220.39 () {40 vars in 875 bytes} [Tue Nov 10 13:10:20 2015] GET /jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo => generated 2482 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 2/11] 120.26.220.39 () {40 vars in 713 bytes} [Tue Nov 10 13:10:28 2015] GET /invoker/JMXInvokerServlet => generated 2430 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 9/12] 91.214.202.127 () {36 vars in 559 bytes} [Tue Nov 10 13:42:29 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 10/13] 176.103.48.58 () {36 vars in 558 bytes} [Tue Nov 10 15:12:27 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 11/14] 182.118.60.42 () {32 vars in 469 bytes} [Tue Nov 10 18:01:42 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 12/15] 120.25.103.140 () {28 vars in 304 bytes} [Wed Nov 11 06:45:02 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 13/16] 120.24.251.13 () {28 vars in 303 bytes} [Wed Nov 11 07:00:46 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 14/17] 120.25.2.162 () {28 vars in 352 bytes} [Wed Nov 11 08:58:32 2015] GET /invoker/JMXInvokerServlet => generated 2430 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 15/18] 217.31.48.30 () {34 vars in 419 bytes} [Wed Nov 11 11:27:18 2015] HEAD /rom-0 => generated 0 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 16/19] 120.25.2.162 () {28 vars in 314 bytes} [Wed Nov 11 13:14:27 2015] GET /script => generated 2373 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 17/20] 120.26.55.211 () {28 vars in 303 bytes} [Wed Nov 11 13:52:06 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 18/21] 59.172.176.200 () {36 vars in 573 bytes} [Thu Nov 12 08:30:35 2015] GET /favicon.ico => generated 2388 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 19/22] 121.42.0.18 () {36 vars in 504 bytes} [Thu Nov 12 11:32:56 2015] GET /hudson/ => generated 2379 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 3/23] 121.42.0.18 () {36 vars in 490 bytes} [Thu Nov 12 11:32:59 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6612|app: 0|req: 2/24] 121.42.0.18 () {36 vars in 490 bytes} [Thu Nov 12 11:33:17 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6616|app: 0|req: 1/25] 121.42.0.18 () {36 vars in 490 bytes} [Thu Nov 12 11:33:21 2015] GET / => generated 19 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 20/26] 121.42.0.18 () {36 vars in 508 bytes} [Thu Nov 12 11:33:27 2015] GET /login.jsp => generated 2385 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 4/27] 121.42.0.18 () {36 vars in 506 bytes} [Thu Nov 12 11:33:41 2015] GET /console/ => generated 2382 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6612|app: 0|req: 3/28] 121.42.0.18 () {36 vars in 504 bytes} [Thu Nov 12 11:33:45 2015] GET /zabbix/ => generated 2379 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 21/29] 121.42.0.18 () {36 vars in 490 bytes} [Thu Nov 12 11:33:47 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6615|app: 0|req: 1/30] 121.42.0.18 () {36 vars in 520 bytes} [Thu Nov 12 11:33:51 2015] GET /cacti/index.php => generated 2403 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 22/31] 121.42.0.18 () {36 vars in 508 bytes} [Thu Nov 12 11:33:53 2015] GET /index.php => generated 2385 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 5/32] 121.42.0.18 () {36 vars in 490 bytes} [Thu Nov 12 11:33:55 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6620|app: 0|req: 1/33] 121.42.0.18 () {36 vars in 502 bytes} [Thu Nov 12 11:33:57 2015] GET /axis2/ => generated 2376 bytes in 28 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 23/34] 121.42.0.18 () {36 vars in 500 bytes} [Thu Nov 12 11:34:01 2015] GET /solr/ => generated 2373 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 6/35] 121.42.0.18 () {36 vars in 490 bytes} [Thu Nov 12 11:34:03 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 24/36] 120.26.55.211 () {28 vars in 325 bytes} [Thu Nov 12 15:09:00 2015] GET /jmx-console => generated 2388 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 25/37] 120.26.55.211 () {28 vars in 325 bytes} [Thu Nov 12 15:17:57 2015] GET /jmx-console => generated 2388 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 26/38] 217.31.48.13 () {34 vars in 419 bytes} [Thu Nov 12 18:31:09 2015] HEAD /rom-0 => generated 0 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 27/39] 113.240.250.155 () {28 vars in 305 bytes} [Fri Nov 13 01:57:35 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 28/40] 113.240.250.155 () {38 vars in 540 bytes} [Fri Nov 13 02:19:25 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 29/41] 61.135.190.197 () {40 vars in 579 bytes} [Fri Nov 13 03:08:48 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 30/42] 120.26.55.211 () {28 vars in 313 bytes} [Fri Nov 13 09:39:04 2015] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 141 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 31/43] 121.40.83.80 () {30 vars in 331 bytes} [Fri Nov 13 10:25:53 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 32/44] 121.40.83.80 () {30 vars in 331 bytes} [Fri Nov 13 10:30:24 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 33/45] 121.42.0.33 () {38 vars in 599 bytes} [Sat Nov 14 04:09:02 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 34/46] 61.135.190.71 () {40 vars in 578 bytes} [Sat Nov 14 13:37:52 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 35/47] 193.203.50.20 () {36 vars in 558 bytes} [Sat Nov 14 17:22:56 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 36/48] 40.117.44.123 () {30 vars in 322 bytes} [Sun Nov 15 04:05:52 2015] HEAD / => generated 0 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 37/49] 221.231.6.246 () {36 vars in 586 bytes} [Sun Nov 15 17:51:27 2015] OPTIONS / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 38/50] 76.74.97.4 () {32 vars in 387 bytes} [Sun Nov 15 22:38:25 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 39/51] 61.135.190.72 () {40 vars in 578 bytes} [Mon Nov 16 00:47:36 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 40/52] 120.26.55.211 () {28 vars in 416 bytes} [Mon Nov 16 09:29:45 2015] GET /chuangye/download?path=../../../../../../../../etc/passwd => generated 2446 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 41/53] 110.35.199.237 () {30 vars in 328 bytes} [Mon Nov 16 11:03:22 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 42/54] 118.98.104.21 () {38 vars in 489 bytes} [Mon Nov 16 12:29:31 2015] GET /user/soapCaller.bs => generated 2409 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 43/55] 121.42.0.33 () {38 vars in 598 bytes} [Mon Nov 16 14:24:01 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 44/56] 54.183.207.48 () {30 vars in 386 bytes} [Mon Nov 16 22:52:03 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 45/57] 221.231.6.246 () {36 vars in 586 bytes} [Tue Nov 17 03:57:11 2015] OPTIONS / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 46/58] 61.135.190.197 () {40 vars in 579 bytes} [Tue Nov 17 14:40:26 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 47/59] 141.212.121.192 () {30 vars in 345 bytes} [Tue Nov 17 14:56:08 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 48/60] 221.231.6.246 () {36 vars in 586 bytes} [Wed Nov 18 11:52:54 2015] OPTIONS / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 7/61] 221.231.6.246 () {38 vars in 620 bytes} [Wed Nov 18 11:52:55 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 49/62] 121.42.0.33 () {38 vars in 599 bytes} [Wed Nov 18 19:33:26 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 50/63] 61.135.190.69 () {40 vars in 578 bytes} [Wed Nov 18 23:54:35 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 51/64] 221.231.6.246 () {36 vars in 585 bytes} [Thu Nov 19 03:58:34 2015] OPTIONS / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 52/65] 193.203.48.27 () {36 vars in 558 bytes} [Thu Nov 19 22:49:12 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 53/66] 120.26.55.211 () {28 vars in 350 bytes} [Fri Nov 20 03:41:35 2015] GET /bocadmin/index.php?login => generated 2415 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 54/67] 203.236.50.95 () {34 vars in 429 bytes} [Fri Nov 20 08:44:48 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 55/68] 61.135.190.69 () {40 vars in 578 bytes} [Fri Nov 20 10:57:20 2015] GET / => generated 19 bytes in 2 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 56/69] 59.172.176.141 () {42 vars in 787 bytes} [Fri Nov 20 12:54:40 2015] GET / => generated 19 bytes in 189 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6614|app: 0|req: 8/70] 59.172.176.141 () {42 vars in 739 bytes} [Fri Nov 20 12:54:41 2015] GET /favicon.ico => generated 2388 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 94 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 57/71] 222.45.51.236 () {34 vars in 429 bytes} [Fri Nov 20 17:43:46 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 58/72] 121.42.0.33 () {38 vars in 599 bytes} [Fri Nov 20 20:05:26 2015] GET / => generated 19 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6619|app: 0|req: 59/73] 59.172.176.141 () {42 vars in 787 bytes} [Sat Nov 21 07:41:01 2015] GET / => generated 19 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)

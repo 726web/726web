@@ -2,5 +2,7 @@
 
 ## 20151109
 
-1. 新建MySQL表djangodb，并配置settings.py中的MySQL为djangodb
-2. 设置端口号为80，如此可以不用端口号就可以方位网站
+1. 新建MySQL表djangodb，并配置settings.py中的MySQL为djangodb，同时修改MySQL编码为UTF8；
+2. 设置端口号为80，如此可以不用端口号就可以方位网站；
+3. 新建了几个用户，分别是whu，以及各人的名字首字母缩写，密码同用户名；
+

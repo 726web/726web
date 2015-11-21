@@ -1,3 +1,4 @@
+# -*- coding=utf-8  -*-
 """
 Django settings for mysite project.
 
@@ -30,13 +31,32 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'bootstrap_admin',          #一定要放在django.cotrib.admin前面
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'article',
 )
+
+'''bootstrap admin settings'''
+from django.conf import global_settings
+TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
+        'django.core.context_processors.request',
+)
+BOOTSTRAP_ADMIN_SIDEBAR_MENU = True
+'''bootstrap admin settings'''
+
+'''TEMPLATE_PATH'''
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
+TEMPLATE_DIRS = (
+    TEMPLATE_PATH,
+    )
+''''''
+
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
